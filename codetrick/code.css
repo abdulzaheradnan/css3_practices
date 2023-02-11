@@ -1,0 +1,151 @@
+p#data {
+    color: aqua;
+}
+
+p#data1 {
+    color: #f55;
+}
+
+p.classstyel,
+h1.classstyel {
+    color: peru;
+    font-size: 2em;
+}
+
+h1#head {
+    background: #f55;
+    background-color: blue;
+}
+
+.div1 {
+    display: inline-block;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.div2 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+}
+
+.main {
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    background-color: aqua;
+}
+
+h1#header {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    justify-items: center;
+}
+
+body {
+    /* font-family:monospace; */
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.gradiant {
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    background-color: #f55;
+    background-image: linear-gradient(to right, red, black, pink, orange, blue);
+    /* background-image: linear-gradient(to right ,red,black); */
+
+}
+
+div#shadow {
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    text-shadow: 10px 5px pink;
+}
+
+.gray {
+    width: 300px;
+    height: 300px;
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=600);
+    transition: width 4s;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.gray:hover {
+    width: 800px;
+}
+
+.transision {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 4s;
+}
+
+.transision:hover {
+    width: 300px;
+
+}
+
+.newdiv {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: first;
+    animation-duration: 4s;
+
+}
+
+@keyframes first {
+    from {
+        background: red
+    }
+
+    to {
+        background: blue
+    }
+
+}
+
+.pagination {
+    display: inline-block;
+
+}
+
+.pagination a {
+    padding: 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+
+}
+
+.pagination a:hover {
+    color: red;
+}
+@media screen and (max-width:500px){
+    .gray{
+        width: 100px;
+        height: 100px;
+    }
+    body{
+        background-color: #f55;
+    }
+}
+.imagecon{
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
