@@ -65,7 +65,7 @@ body {
 }
 
 div#shadow {
-    width: 300px;
+    width: 400px;
     height: 100px;
     font-size: 20px;
     text-shadow: 10px 5px pink;
